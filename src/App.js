@@ -28,7 +28,8 @@ function App() {
 		<h1>NC LLP</h1>
 		<h3> To demonstrate the usage of material-table and rest-api</h3>
 		<MaterialTable
-			title=""
+
+			title=".."
 			columns={col}
 			data={data}
 			editable={{
@@ -58,11 +59,16 @@ function App() {
 				actionsColumnIndex:-1,
 				headerStyle: {
 					backgroundColor: '#01579b',
+					borderRadius:".4em",
 					color: '#FFF'
 				},
 				rowStyle: rowData => ({
           			backgroundColor: (selectedRow === rowData.tableData.id) ? '#EEE' : '#FFF'
 				})
+			}}
+			style={{
+					borderRadius:"2em",
+					width:"75%"
 			}}
 		/>
 	</div>

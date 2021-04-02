@@ -1,0 +1,14 @@
+body{
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     background: #b2f9ff; 
+     background: -moz-linear-gradient(135deg,  #b2f9ff 0%,#efebbe 100%); background: -webkit-linear-gradient(135deg,  #b2f9ff 0%,#efebbe 100%); background: linear-gradient(135deg,  #b2f9ff 0%,#efebbe 100%);
+}
+h1{
+     font-size:4rem;
+}
+.App{
+     display:flex;
+     flex-direction: column;
+     justify-content:center;
+     align-items:center;
+}
