@@ -25,8 +25,9 @@ function App() {
 
   return (
 	<div className="App">
-		<h1>NC LLP</h1>
+		<h1>Rest-api</h1>
 		<h3> To demonstrate the usage of material-table and rest-api</h3>
+		<h4 >this page is communicating with <a href="https://jsonplaceholder.typicode.com/users" className="">jsonplaceholder.typicode.com</a></h4>
 		<MaterialTable
 
 			title=".."
